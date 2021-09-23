@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using MetalBake;
 using MetalBake.Models;
-
 namespace MetalBandBakery.Console
 {
     class Program
