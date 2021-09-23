@@ -16,6 +16,7 @@ EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "StockServiceWCF", "StockServiceWCF\", "{B248792E-6804-49E0-B9D7-E58061EB9CD6}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		ProjectReferences = ""
 		Debug.AspNetCompiler.VirtualPath = "/localhost_54714"
 		Debug.AspNetCompiler.PhysicalPath = "StockServiceWCF\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54714\"
@@ -31,6 +32,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "StockServiceWCF", "StockSer
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "54714"
+		SlnRelativePath = "StockServiceWCF\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
