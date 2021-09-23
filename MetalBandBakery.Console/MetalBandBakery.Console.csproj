@@ -49,5 +49,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MetalBandBakery.Core\MetalBandBakery.Core.csproj">
+      <Project>{cf78d410-3338-4acc-baab-9731f1b96b5c}</Project>
+      <Name>MetalBandBakery.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MetalBandBakery.Infra\MetalBandBakery.Infra.csproj">
+      <Project>{d4903eaf-7ff5-4e57-a6fe-ffe4917168cc}</Project>
+      <Name>MetalBandBakery.Infra</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
