@@ -12,6 +12,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetalBandBakery.Core", "MetalBandBakery.Core\MetalBandBakery.Core.csproj", "{CF78D410-3338-4ACC-BAAB-9731F1B96B5C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetalBandBakery.Console", "MetalBandBakery.Console\MetalBandBakery.Console.csproj", "{9EAB3665-50C2-4933-A92D-32D266458590}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B248792E-6804-49E0-B9D7-E58061EB9CD6} = {B248792E-6804-49E0-B9D7-E58061EB9CD6}
+	EndProjectSection
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "StockServiceWCF", "StockServiceWCF\", "{B248792E-6804-49E0-B9D7-E58061EB9CD6}"
 	ProjectSection(WebsiteProperties) = preProject

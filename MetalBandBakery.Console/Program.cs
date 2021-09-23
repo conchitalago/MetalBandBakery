@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MetalBake;
 using MetalBake.Models;
+using MetalBandBakery.Console.ServiceReference1;
 namespace MetalBandBakery.Console
 {
     class Program
@@ -12,8 +13,9 @@ namespace MetalBandBakery.Console
         static void Main(string[] args)
         {
             string[] keys = ItemsToPurchase();
+
             StockService stockService = new StockService();
-/*            stockService.ShowStock(keys);*/
+            stockService.ShowStock(keys);
             stockService.CheckStock(keys);
             PriceService priceService = new PriceService();
             decimal totalToPay = priceService.TotalToPay(keys);

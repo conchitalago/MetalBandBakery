@@ -28,11 +28,17 @@ public class Service : IService
                 /*Console.WriteLine($"Not enough stock of {products.productsNames[item]}");*/
                 Console.WriteLine("Not stock of "+ products.productsNames[item]);
             }
+            else
+            {
+                productsStock[item]--;
+            }
         }
     }
-
     public void ShowStock(string[] itemId)
     {
-        throw new NotImplementedException();
+        foreach (var item in itemId)
+        {
+            Console.WriteLine(products.productsNames[item] + " ||" +  productsStock[item]);
+        }
     }
 }
