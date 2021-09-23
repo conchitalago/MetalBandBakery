@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetalBandBakery", "MetalBandBakery\MetalBandBakery.csproj", "{E2EB9F26-DA43-43E3-9066-4F36FCEC676A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetalBandBakeryWCF", "MetalBandBakeryWCF\MetalBandBakeryWCF.csproj", "{97F2AE96-C058-4E3D-B393-9B3E179AFC21}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetalBandBakery.Test", "MetalBandBakery.Test\MetalBandBakery.Test.csproj", "{116B92F4-F130-4C94-9236-E630B9BC7507}"
@@ -23,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E2EB9F26-DA43-43E3-9066-4F36FCEC676A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E2EB9F26-DA43-43E3-9066-4F36FCEC676A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E2EB9F26-DA43-43E3-9066-4F36FCEC676A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E2EB9F26-DA43-43E3-9066-4F36FCEC676A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{97F2AE96-C058-4E3D-B393-9B3E179AFC21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{97F2AE96-C058-4E3D-B393-9B3E179AFC21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97F2AE96-C058-4E3D-B393-9B3E179AFC21}.Release|Any CPU.ActiveCfg = Release|Any CPU
