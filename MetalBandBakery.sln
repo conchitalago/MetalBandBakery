@@ -9,6 +9,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetalBandBakeryWCF", "Metal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetalBandBakery.Test", "MetalBandBakery.Test\MetalBandBakery.Test.csproj", "{116B92F4-F130-4C94-9236-E630B9BC7507}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetalBandBakery.MVC", "MetalBandBakery.MVC\MetalBandBakery.MVC.csproj", "{CBB8C446-81ED-40CC-B125-9240785B7577}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetalBandBakery.Infra", "MetalBandBakery.Infra\MetalBandBakery.Infra.csproj", "{D4903EAF-7FF5-4E57-A6FE-FFE4917168CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetalBandBakery.Core", "MetalBandBakery.Core\MetalBandBakery.Core.csproj", "{CF78D410-3338-4ACC-BAAB-9731F1B96B5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetalBandBakery.Console", "MetalBandBakery.Console\MetalBandBakery.Console.csproj", "{9EAB3665-50C2-4933-A92D-32D266458590}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +35,22 @@ Global
 		{116B92F4-F130-4C94-9236-E630B9BC7507}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{116B92F4-F130-4C94-9236-E630B9BC7507}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{116B92F4-F130-4C94-9236-E630B9BC7507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBB8C446-81ED-40CC-B125-9240785B7577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBB8C446-81ED-40CC-B125-9240785B7577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBB8C446-81ED-40CC-B125-9240785B7577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBB8C446-81ED-40CC-B125-9240785B7577}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4903EAF-7FF5-4E57-A6FE-FFE4917168CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4903EAF-7FF5-4E57-A6FE-FFE4917168CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4903EAF-7FF5-4E57-A6FE-FFE4917168CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4903EAF-7FF5-4E57-A6FE-FFE4917168CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF78D410-3338-4ACC-BAAB-9731F1B96B5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF78D410-3338-4ACC-BAAB-9731F1B96B5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF78D410-3338-4ACC-BAAB-9731F1B96B5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF78D410-3338-4ACC-BAAB-9731F1B96B5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EAB3665-50C2-4933-A92D-32D266458590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EAB3665-50C2-4933-A92D-32D266458590}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EAB3665-50C2-4933-A92D-32D266458590}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EAB3665-50C2-4933-A92D-32D266458590}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
