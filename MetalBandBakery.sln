@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetalBandBakeryWCF", "MetalBandBakeryWCF\MetalBandBakeryWCF.csproj", "{97F2AE96-C058-4E3D-B393-9B3E179AFC21}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetalBandBakery.Test", "MetalBandBakery.Test\MetalBandBakery.Test.csproj", "{116B92F4-F130-4C94-9236-E630B9BC7507}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetalBandBakery.MVC", "MetalBandBakery.MVC\MetalBandBakery.MVC.csproj", "{CBB8C446-81ED-40CC-B125-9240785B7577}"
@@ -15,16 +13,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetalBandBakery.Core", "Met
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetalBandBakery.Console", "MetalBandBakery.Console\MetalBandBakery.Console.csproj", "{9EAB3665-50C2-4933-A92D-32D266458590}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetalBandBakeryStockWCF", "MetalBandBakeryStockWCF\MetalBandBakeryStockWCF.csproj", "{BF3F9DA5-DA2D-4BFB-AC09-5371439AE386}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{97F2AE96-C058-4E3D-B393-9B3E179AFC21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{97F2AE96-C058-4E3D-B393-9B3E179AFC21}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{97F2AE96-C058-4E3D-B393-9B3E179AFC21}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{97F2AE96-C058-4E3D-B393-9B3E179AFC21}.Release|Any CPU.Build.0 = Release|Any CPU
 		{116B92F4-F130-4C94-9236-E630B9BC7507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{116B92F4-F130-4C94-9236-E630B9BC7507}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{116B92F4-F130-4C94-9236-E630B9BC7507}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +41,10 @@ Global
 		{9EAB3665-50C2-4933-A92D-32D266458590}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EAB3665-50C2-4933-A92D-32D266458590}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EAB3665-50C2-4933-A92D-32D266458590}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF3F9DA5-DA2D-4BFB-AC09-5371439AE386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF3F9DA5-DA2D-4BFB-AC09-5371439AE386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF3F9DA5-DA2D-4BFB-AC09-5371439AE386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF3F9DA5-DA2D-4BFB-AC09-5371439AE386}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -13,7 +13,7 @@ namespace MetalBandBakery.Console
         {
             string[] keys = ItemsToPurchase();
             StockService stockService = new StockService();
-            stockService.ShowStock(keys);
+/*            stockService.ShowStock(keys);*/
             stockService.CheckStock(keys);
             PriceService priceService = new PriceService();
             decimal totalToPay = priceService.TotalToPay(keys);
@@ -22,7 +22,6 @@ namespace MetalBandBakery.Console
             change.CalculateChangeToReturn(amountToPay, totalToPay);
             //AddStock();
         }
-
         public static string[] ItemsToPurchase()
         {
             System.Console.WriteLine();
@@ -34,6 +33,5 @@ namespace MetalBandBakery.Console
             string[] keysPickUp = System.Console.ReadLine().ToUpper().Split(',');
             return keysPickUp;
         }
-
     }
 }

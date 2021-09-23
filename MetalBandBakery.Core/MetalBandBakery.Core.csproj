@@ -43,7 +43,6 @@
   <ItemGroup>
     <Compile Include="Interfaces\IPriceService.cs" />
     <Compile Include="Interfaces\IStockService.cs" />
-    <Compile Include="Models\Itemstopurchase.cs" />
     <Compile Include="Models\Products.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

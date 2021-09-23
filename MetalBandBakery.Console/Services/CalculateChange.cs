@@ -12,13 +12,10 @@ namespace MetalBake.Models
             if(totalChange < 0)
             {
                 Console.WriteLine("You haven't enough money");
-                amount = 0;
                 AmountToPaid();
-  
             }else if (totalChange == 0)
                 {
-                    Console.WriteLine("Not return money.");
-              
+                    Console.WriteLine("Not return money.");             
             }
             else {
                 Console.WriteLine($"Your change is : {totalChange}");
