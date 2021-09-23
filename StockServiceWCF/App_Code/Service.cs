@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MetalBake.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -9,21 +10,29 @@ using System.Text;
 // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "Service" in code, svc and config file together.
 public class Service : IService
 {
-	public string GetData(int value)
-	{
-		return string.Format("You entered: {0}", value);
-	}
+    public Dictionary<string, int> productsStock = new Dictionary<string, int>()
+        {
+            {"B",40 },
+            {"M",36 },
+            {"C",24 },
+            {"W",3 }
 
-	public CompositeType GetDataUsingDataContract(CompositeType composite)
-	{
-		if (composite == null)
-		{
-			throw new ArgumentNullException("composite");
-		}
-		if (composite.BoolValue)
-		{
-			composite.StringValue += "Suffix";
-		}
-		return composite;
-	}
+        };
+    Products products = new Products();
+    public void CheckStock(string[] itemId)
+    {
+        foreach (var item in itemId)
+        {
+            if (productsStock[item]<0)
+            {
+                /*Console.WriteLine($"Not enough stock of {products.productsNames[item]}");*/
+                Console.WriteLine("Not stock of "+ products.productsNames[item]);
+            }
+        }
+    }
+
+    public void ShowStock(string[] itemId)
+    {
+        throw new NotImplementedException();
+    }
 }
