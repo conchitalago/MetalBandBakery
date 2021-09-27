@@ -39,6 +39,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "StockServiceWCF", "StockSer
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriceService", "PriceService\PriceService.csproj", "{DC422C9C-5289-4D65-B675-633CF291C541}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{B248792E-6804-49E0-B9D7-E58061EB9CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B248792E-6804-49E0-B9D7-E58061EB9CD6}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{B248792E-6804-49E0-B9D7-E58061EB9CD6}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{DC422C9C-5289-4D65-B675-633CF291C541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC422C9C-5289-4D65-B675-633CF291C541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC422C9C-5289-4D65-B675-633CF291C541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC422C9C-5289-4D65-B675-633CF291C541}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
