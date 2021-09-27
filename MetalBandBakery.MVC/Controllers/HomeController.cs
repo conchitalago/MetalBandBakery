@@ -26,5 +26,9 @@ namespace MetalBandBakery.MVC.Controllers
 
             return View();
         }
+        public ActionResult Stock(string[] itemId)
+        {
+            return View();
+        }
     }
 }

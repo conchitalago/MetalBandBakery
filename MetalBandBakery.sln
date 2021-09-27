@@ -19,7 +19,7 @@ EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "StockServiceWCF", "StockServiceWCF\", "{B248792E-6804-49E0-B9D7-E58061EB9CD6}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
-		ProjectReferences = ""
+		ProjectReferences = "{cf78d410-3338-4acc-baab-9731f1b96b5c}|MetalBandBakery.Core.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_54714"
 		Debug.AspNetCompiler.PhysicalPath = "StockServiceWCF\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54714\"
@@ -39,7 +39,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "StockServiceWCF", "StockSer
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriceService", "PriceService\PriceService.csproj", "{DC422C9C-5289-4D65-B675-633CF291C541}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PricesServiceAPI", "PricesServiceAPI\PricesServiceAPI.csproj", "{26725EFD-DB28-45EB-8F62-5D19DD828E5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,10 +71,10 @@ Global
 		{B248792E-6804-49E0-B9D7-E58061EB9CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B248792E-6804-49E0-B9D7-E58061EB9CD6}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{B248792E-6804-49E0-B9D7-E58061EB9CD6}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{DC422C9C-5289-4D65-B675-633CF291C541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DC422C9C-5289-4D65-B675-633CF291C541}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DC422C9C-5289-4D65-B675-633CF291C541}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DC422C9C-5289-4D65-B675-633CF291C541}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26725EFD-DB28-45EB-8F62-5D19DD828E5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26725EFD-DB28-45EB-8F62-5D19DD828E5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26725EFD-DB28-45EB-8F62-5D19DD828E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26725EFD-DB28-45EB-8F62-5D19DD828E5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
