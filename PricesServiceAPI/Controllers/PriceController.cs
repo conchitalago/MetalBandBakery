@@ -4,7 +4,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
 namespace PricesServiceAPI.Controllers
 {
     [ApiController]
@@ -23,10 +22,10 @@ namespace PricesServiceAPI.Controllers
             _logger = logger;
         }
 
-        [HttpGet]
-        public IEnumerable<WeatherForecast> Get()
+        [HttpGet("{itemid}")]
+        public IEnumerable<> Get(string itemid)
         {
-            
+
         }
     }
 }
