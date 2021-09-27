@@ -56,6 +56,20 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MetalBandBakery.Console\MetalBandBakery.Console.csproj">
+      <Project>{9eab3665-50c2-4933-a92d-32d266458590}</Project>
+      <Name>MetalBandBakery.Console</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MetalBandBakery.Core\MetalBandBakery.Core.csproj">
+      <Project>{cf78d410-3338-4acc-baab-9731f1b96b5c}</Project>
+      <Name>MetalBandBakery.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MetalBandBakery.Infra\MetalBandBakery.Infra.csproj">
+      <Project>{d4903eaf-7ff5-4e57-a6fe-ffe4917168cc}</Project>
+      <Name>MetalBandBakery.Infra</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

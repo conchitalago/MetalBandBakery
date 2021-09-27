@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MetalBake;
 using MetalBake.Models;
-
+using MetalBandBakery.Console.ServiceReference1;
 namespace MetalBandBakery.Console
 {
     class Program
@@ -13,6 +13,7 @@ namespace MetalBandBakery.Console
         static void Main(string[] args)
         {
             string[] keys = ItemsToPurchase();
+
             StockService stockService = new StockService();
             stockService.ShowStock(keys);
             stockService.CheckStock(keys);
@@ -23,7 +24,6 @@ namespace MetalBandBakery.Console
             change.CalculateChangeToReturn(amountToPay, totalToPay);
             //AddStock();
         }
-
         public static string[] ItemsToPurchase()
         {
             System.Console.WriteLine();
@@ -35,6 +35,5 @@ namespace MetalBandBakery.Console
             string[] keysPickUp = System.Console.ReadLine().ToUpper().Split(',');
             return keysPickUp;
         }
-
     }
 }

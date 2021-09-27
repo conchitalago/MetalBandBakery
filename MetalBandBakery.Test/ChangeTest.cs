@@ -9,11 +9,12 @@ namespace MetalBandBakery.Test
     public class ChangeTest
     {
         CalculateChange change = new CalculateChange();
+        
         [TestMethod]
         public void ChangeCalculatorTest()
         {
-            decimal amount = 2;
-            decimal total = 3;
+            
+           
         }
     }
 }
