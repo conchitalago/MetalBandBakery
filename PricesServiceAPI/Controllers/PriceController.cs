@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using PricesServiceAPI.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,10 +23,10 @@ namespace PricesServiceAPI.Controllers
             _logger = logger;
         }
 
-        [HttpGet("{itemid}")]
-        public IEnumerable<> Get(string itemid)
+        [HttpGet]
+        public IEnumerable<ItemPrice>Get()
         {
-
+            IItemPriceRepository repository = new ItemPriceRepository();
         }
     }
 }

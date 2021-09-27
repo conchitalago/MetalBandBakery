@@ -16,6 +16,10 @@ public interface IService
 
 	[OperationContract]
 	void ShowStock(string[] itemId);
+	[OperationContract]
+	void AddStock(string[] itemId);
+	[OperationContract]
+	void ReducedStock(string[] itemId);
 
 }
 

@@ -30,7 +30,7 @@ public class Service : IService
             }
             else
             {
-                productsStock[item]--;
+                ReducedStock(itemId);
             }
         }
     }
@@ -39,6 +39,20 @@ public class Service : IService
         foreach (var item in itemId)
         {
             Console.WriteLine(products.productsNames[item] + " ||" +  productsStock[item]);
+        }
+    }
+    public void AddStock(string[] itemId)
+    {
+        foreach (var item in itemId)
+        {
+            productsStock[item]++;
+        }
+    }
+    public void ReducedStock(string[] itemId)
+    {
+        foreach (var item in itemId)
+        {
+            productsStock[item]--;
         }
     }
 }
